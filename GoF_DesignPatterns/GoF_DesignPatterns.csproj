@@ -41,8 +41,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\Singleton.cs" />
-    <Compile Include="State\Context.cs" />
-    <Compile Include="State\IState.cs" />
+    <Compile Include="StateByAbstractClass\Context.cs" />
+    <Compile Include="StateByAbstractClass\State.cs" />
+    <Compile Include="StateByInterface\Context.cs" />
+    <Compile Include="StateByInterface\IState.cs" />
+    <Compile Include="StrategyByInterface\Context.cs" />
+    <Compile Include="StrategyByInterface\IStrategy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
